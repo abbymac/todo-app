@@ -7,7 +7,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 const ListItem = ({ todo, onClick, showCompleted, deleteTodo }) => {
   return (
-    <ListItemContainer onClick={onClick} show={showCompleted} key={todo.id}>
+    <ListItemContainer onClick={onClick} show={showCompleted}>
       <NameContain>
         {/* <IconButton
           aria-label="Delete todo"
